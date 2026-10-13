@@ -10,3 +10,6 @@
 #     print(x)        
 
 # range (start,stop,step):   syntax
+
+# for x in range(1,101,2):
+#     print(x)
