@@ -25,3 +25,23 @@ india'''
 # print(course[::-1])
 # for x in course:
 #     print(x)
+
+# sring methods
+print(course.upper())
+print(course.lower())
+print(course.capitalize())
+print(course.title())
+print(course.swapcase())
+print(course.isupper())
+print(course.islower())
+print(course.index('l'))
+print(course.index('fullstack'))
+print(course.count('l'))
+print(course.isdigit())
+print('sds23e'.isalpha())
+print("  dscd wed  ".strip())
+print("  dscd wed  ".lstrip(),"fdgdgd")
+print("  dscd wed  ".rstrip(),"edwe",sep='-')
+print(course.startswith("PY"))
+print(course.endswith("STACK"))
+print(course.endswith("stack"))
