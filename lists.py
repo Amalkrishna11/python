@@ -35,3 +35,42 @@ for n in numbers:
     if  n%2 == 0:
         event_count +=1
 print(event_count)
+
+
+
+l2 = []
+l3 = list("karthi")
+print(numbers)
+print(l3)
+print(l3 in numbers)
+
+
+
+print(numbers.count(77))
+print(numbers.index(100))
+print(22 in numbers)
+print(22 not in numbers)
+
+
+# l4 = numbers.copy()
+# l4[1]= "jobin"
+# print(l4)
+# print(numbers)
+# print(l4 in numbers)
+
+# nunber.sort(reverse=true)
+# numbers.reverse()
+# print(numbers)
+# l5 = [[12,12,12],[23,45,67],[67,76,65]]
+# print(l5)
+# print(l5[1][2])
+# l6 = l5.copy() 
+# l6[1][2]= 555
+# l6 [2]=56
+
+# print(l5)
+# print(l6)
+
+# for x in l5:
+#     for n in x:
+#         print(n)
