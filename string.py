@@ -1,8 +1,8 @@
-name = 'athul'
-course = "python fullstack"
-address = '''kochi
-kerala
-india'''
+# name = 'athul'
+# course = "python fullstack"
+# address = '''kochi
+# kerala
+# india'''
 
 # print(name)
 # print(course)
@@ -27,21 +27,44 @@ india'''
 #     print(x)
 
 # sring methods
-print(course.upper())
-print(course.lower())
-print(course.capitalize())
-print(course.title())
-print(course.swapcase())
-print(course.isupper())
-print(course.islower())
-print(course.index('l'))
-print(course.index('fullstack'))
-print(course.count('l'))
-print(course.isdigit())
-print('sds23e'.isalpha())
-print("  dscd wed  ".strip())
-print("  dscd wed  ".lstrip(),"fdgdgd")
-print("  dscd wed  ".rstrip(),"edwe",sep='-')
-print(course.startswith("PY"))
-print(course.endswith("STACK"))
-print(course.endswith("stack"))
+# print(course.upper())
+# print(course.lower())
+# print(course.capitalize())
+# print(course.title())
+# print(course.swapcase())
+# print(course.isupper())
+# print(course.islower())
+# print(course.index('l'))
+# print(course.index('fullstack'))
+# print(course.count('l'))
+# print(course.isdigit())
+# print('sds23e'.isalpha())
+# print("  dscd wed  ".strip())
+# print("  dscd wed  ".lstrip(),"fdgdgd")
+# print("  dscd wed  ".rstrip(),"edwe",sep='-')
+# print(course.startswith("PY"))
+# print(course.endswith("STACK"))
+# print(course.endswith("stack"))
+course = "PYTHON Fullstack"
+name = "Athul"
+
+# print(course.replace("java", "Javascript"))
+# print(course.split(' '))
+# print(course.split('t'))
+# print("-".join(("hello", "world")))
+# print("Name:", name, "\nCourse:", course)
+# print(f"Name: {name}.\nCourse: {course}.")
+# print("Name: {}.\nCourse: {}.".format(name, course))
+
+# print(f"{'Name':<10} {"Age":<4}{" Course":<10}")
+# print('-'*25)
+
+# print(f"{'Abhijith':<10} {"19":<4}{" python":<10}")
+# print(f"{'alan':<10} {"19":<4}{" bca":<10}")
+# print(f"{'jibin':<10} {"19":<4}{" b.com":<10}")
+# print(f"{'jibin':<10} {"19":<4}{" b.com":<10}")
+# print(f"{'jibin':<10} {"19":<4}{" b.com":<10}")
+# print(f"{'jibin':<10} {"19":<4}{" b.com":<10}")
+# print('-'*25)
+
+
