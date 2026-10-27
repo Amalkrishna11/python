@@ -74,3 +74,27 @@ print(22 not in numbers)
 # for x in l5:
 #     for n in x:
 #         print(n)
+
+# number = [78,96,77,36,10,2,75,34]
+
+# square_nubers = []
+# for n in number:
+#     square_nubers.append(n*n)
+# print(square_nubers)
+
+
+
+# comp
+
+# squared_numbers = [ n*n for n in number]
+# print(squared_numbers)
+
+
+# [expression for item in iterable if clause]
+
+number = [78,96,77,36,10,2,75,34]
+
+s = ["even" if n % 2 == 0 else "odd" for n in number]
+print(s)
+
+
