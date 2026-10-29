@@ -98,3 +98,10 @@ s = ["even" if n % 2 == 0 else "odd" for n in number]
 print(s)
 
 
+
+    
+
+
+
+
+
