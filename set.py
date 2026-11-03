@@ -42,3 +42,5 @@
 # movie_set_1.symmetric_difference_update(movie_set_2)
 
 # print(movie_set_1)
+
+numbers = {1,2}
