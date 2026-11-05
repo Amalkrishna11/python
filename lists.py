@@ -6,50 +6,50 @@ list is a collection of hetrogenous data.
 -mutable
 
 '''
-numbers = [12,12,1,21,23,45,4,77,]
-print(numbers)
-print(type(numbers))
-print(len(numbers))
-print(numbers[6])
-print(numbers[-1])
-print(numbers[1:6])
-print(numbers[-7:-2])
-print(numbers[:-2])
-print(numbers[4:])
-print(numbers[::2])
-print(numbers[::-2])
-print(numbers[::-1])
-print(numbers[0])
-numbers[4]= 100
-numbers.append(867)
-numbers.append(8)
-numbers.insert(1,23)
-# numbers.extend("wayane")
-numbers.extend([12,34,56])
+# numbers = [12,12,1,21,23,45,4,77,]
+# print(numbers)
+# print(type(numbers))
+# print(len(numbers))
+# print(numbers[6])
+# print(numbers[-1])
+# print(numbers[1:6])
+# print(numbers[-7:-2])
+# print(numbers[:-2])
+# print(numbers[4:])
+# print(numbers[::2])
+# print(numbers[::-2])
+# print(numbers[::-1])
+# print(numbers[0])
+# numbers[4]= 100
+# numbers.append(867)
+# numbers.append(8)
+# numbers.insert(1,23)
+# # numbers.extend("wayane")
+# numbers.extend([12,34,56])
 
 
 
-print(numbers)
-event_count = 0
-for n in numbers:
-    if  n%2 == 0:
-        event_count +=1
-print(event_count)
+# print(numbers)
+# event_count = 0
+# for n in numbers:
+#     if  n%2 == 0:
+#         event_count +=1
+# print(event_count)
 
 
 
-l2 = []
-l3 = list("karthi")
-print(numbers)
-print(l3)
-print(l3 in numbers)
+# l2 = []
+# l3 = list("karthi")
+# print(numbers)
+# print(l3)
+# print(l3 in numbers)
 
 
 
-print(numbers.count(77))
-print(numbers.index(100))
-print(22 in numbers)
-print(22 not in numbers)
+# print(numbers.count(77))
+# print(numbers.index(100))
+# print(22 in numbers)
+# print(22 not in numbers)
 
 
 # l4 = numbers.copy()
@@ -92,10 +92,10 @@ print(22 not in numbers)
 
 # [expression for item in iterable if clause]
 
-number = [78,96,77,36,10,2,75,34]
+# number = [78,96,77,36,10,2,75,34]
 
-s = ["even" if n % 2 == 0 else "odd" for n in number]
-print(s)
+# s = ["even" if n % 2 == 0 else "odd" for n in number]
+# print(s)
 
 
 
